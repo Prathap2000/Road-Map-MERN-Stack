@@ -1,0 +1,29 @@
+/* element selector */
+p{
+    color: brown;
+}
+/* id selector */
+#linetwo{
+    color: red;
+    font-size: 30px ;
+}
+/* class selector */
+.classline{
+    color: blue;
+    font-size: 40px;
+}
+/* universal selector */
+*{
+    background: #ff6d6d;
+}
+
+div p{
+    background-color: aqua;
+    font-size: 35px
+}
+/* parent child selector */
+div>span{
+    color: green;
+    border:2px solid black;
+    font-size: 50px;
+}

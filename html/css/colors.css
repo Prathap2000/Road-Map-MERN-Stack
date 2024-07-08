@@ -1,0 +1,17 @@
+/* color my rgb */
+*{
+    background: #cb8b8b;
+    border: 5px #00e7b9 solid;
+}
+p{
+    color: rgb(255, 0, 247);
+    font-size: 30px;
+}
+/* color by name  */
+h1{
+    color: blue;
+}
+/* hexadecial value for color */
+h2{
+    color: #00e7b9;
+}
