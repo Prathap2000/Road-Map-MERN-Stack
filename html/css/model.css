@@ -1,0 +1,12 @@
+.con{
+    background: #fa8888;
+    border: 2px solid black;
+    /*  padding is used for the placeing the content inside the container */
+    padding: 30px;
+    /* margin for sapce between to container */
+    margin: 40px;
+    /* for both top and bootm */
+    /* margin: 20px 40px; */
+    /*  margin outside of border */
+    /* padding inside the padding  */
+}

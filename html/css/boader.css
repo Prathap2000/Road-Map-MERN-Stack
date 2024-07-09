@@ -8,8 +8,15 @@
 #gog{
     border-top: 2px dotted ;
     border-color: blue   ;
-    
-
-    
-
+}
+#bgcolor{
+    background-color: aqua;
+    width: 460px;
+    height: 460px;
+    background-image: url("/new.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* bg attache image is fixed not move able  */
+    background-attachment: fixed;
 }
