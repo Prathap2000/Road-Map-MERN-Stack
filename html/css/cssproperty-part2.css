@@ -1,0 +1,36 @@
+html{
+    font-size: 20px;
+}
+ .con{
+    position:relative;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black;
+}
+#a{
+     /* em is used to multiple the parent size * number of ems  */
+    font-size: 5em;
+}
+/* for responsive screen  */
+.container{
+    border: 2px solid black;
+    display: none;
+}
+/* max width for mobile 688px only for all mobile  */
+@media only screen and (max-width: 600px){
+    #box1-1{
+        display: block;
+        background-color: rgb(73, 247, 189);
+        font-size: 2rem;
+    }
+}
+/*  for tab the max width is 900 */
+/*  max for pc 1312px, for ultra min width is 1312 px  */
+@media only screen and (min-width: 600px ) and ( max-width:900px){
+    #box1-2{
+        display: block;
+        background-color: rgb(247, 96, 73);
+        font-size: 2rem;
+    }
+
+}
