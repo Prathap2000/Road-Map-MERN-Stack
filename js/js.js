@@ -1,3 +1,5 @@
+
+
 console.log('" 1st javascript"');
 // console.warn('its warnimg');
 // console.error('its  error');
@@ -13,3 +15,7 @@ console.log(lang)
 const arr=[20,30,40,60]
 arr.push=[50]
 console.log(arr)
+
+// datatypes in js 
+console.log("DATARTYPES IN JS ")
+// covered the datatype in js 
