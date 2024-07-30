@@ -11,9 +11,9 @@ console.log(lang)
 // variable names are casein sensitive  
 //  the const is use for constant the value of perticular variabke 
 //  let is used for block level element 
-const arr=[20,30,40,60]
-arr.push=[50]
-console.log(arr)
+// const arr=[20,30,40,60]
+// arr.push=[50]
+// console.log(arr)
 
 // datatypes in js 
 console.log("DATARTYPES IN JS ")
@@ -40,4 +40,8 @@ let c= `<h1> am ${a} am from ${b}</h1> and i love mern`;
 document.body.innerHTML=c
 console.log(c)
 
-
+// array and objects
+let arr= new Array(6,2,1,4,5,'prathap')
+console.log(arr)
+console.log(arr.sort()) 
+console.log(arr.reverse()) 
